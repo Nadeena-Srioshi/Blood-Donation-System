@@ -1,0 +1,100 @@
+<!--  Name - MODERAGE I U
+IT no - IT23834606  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register-DonorLink</title>
+        <link rel="stylesheet" href="stylesIshoda/styles.css">
+    </head>
+    <body class="donorLogin">
+        <fieldset id="dl1">
+            <center>
+                <h1>Welcome</h1>
+                <h2 id="heLogin">Donor Registeration</h2>
+            </center>
+                <form action="donor_register.php" method="POST" onsubmit="return validatePasswords()">
+                    <h3 class="sub">Personal Information</h3>
+
+                    <p class="p1">Full name:
+                    <input type="text" id="name" class="regi" name="name" required></p>
+
+                    <p class="p1">Gender:            
+                    <input type="radio" id="female" name="gender" value="Male">
+                    Female<input type="radio" id="male" name="gender" value="Female" required>                    
+                    Male<input type="radio" id="other" name="gender" value="Other" required>
+                    Other</p>
+
+                    <p class="p1">Date of Birth
+                    <input type="date" id="dob" class="regi" name="dob" required></p>
+                    
+                    <p class="p1">NIC
+                    <input type="text" id="nic" class="regi" name="nic" required></p>
+                    
+                    <p class="p1">Blood Type
+                    <select id="bloodType" class="regi" name="bloodType" required>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select></p><br>
+
+
+                    <h3 class="sub">Contact Information</h3>
+
+                    <p class="p1">Phone number
+                    <input type="tel" id="Mobile" class="regi" name="Mobile" required></p>
+
+                    <p class="p1">E-mail
+                    <input type="email" id="email" class="regi" name="email" required></p>
+
+                    <p class="p1">Address
+                    <textarea name="address" rows="1" cols="50" class="regi" required></textarea></p>
+
+                    <p class="p1">Password
+                    <input type="password" id="pass1" class="regi" name="pswrd" required></p>
+                            
+                    <p class="p1">Re-enter Password
+                    <input type="password" id="pass2" class="regi" required></p><br>
+
+                    <input type="checkbox" class="inputStyle" id="checkBox" required>
+                    <label for="checkBox">Accept Privacy Policy and Terms</label>
+
+                    <center>
+                        <input type="submit" class="b1" value="Register" name="submit" ><br><br>
+                    </center>
+                   
+                </form>
+                <br><br>
+                
+                <center>
+                <p>Already have an account?<br>
+                <a href="donor_login.html">
+                <button id="login" class="b1">Login</button>
+                </a></p>
+                </center>
+                
+        </fieldset>
+
+        <script>
+        function validatePasswords() {
+
+        var password = document.getElementById("pass1").value;
+        var confirmPassword = document.getElementById("pass2").value;
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+        }
+       </script>
+    </body>
+</html>

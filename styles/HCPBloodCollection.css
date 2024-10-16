@@ -1,0 +1,150 @@
+/* Name - PRATHIBA H A S 
+IT no - IT23832008    */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+}
+button{
+    font-size: 12px;
+    font-weight: bold;
+    background: #4b3ffa;
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper .sideNav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #302d51;
+    
+}
+
+.sideNav ul li.active {
+    background: #736bdb;
+    color: white;
+  }
+
+.wrapper .sideNav ul li:hover{
+    background: #736bdb;
+}
+
+.wrapper .sideNav h1{
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    border-bottom: 1px dotted white;
+    margin-bottom: 50px;
+}
+.wrapper .sideNav ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper .main-content{
+    width: 80vw;
+    margin-left: 20vw; 
+}
+
+section{
+    padding: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 1000px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+thead tr{
+    background-color: #0b046e;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    
+}
+th{
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+}
+tbody{
+    border-bottom: 2px solid #0b046e;
+}
+
+#section1{
+    background: whitesmoke;
+}
+#section2{
+    background: whitesmoke;
+}
+
+.expired {
+    background-color: #f8d7da; 
+    color: #721c24; 
+}
+
+footer{
+    font-size: 10px;
+}
+
+footer a{
+    color: black;
+}
+
+#edit-btn{
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px;
+    background-color: #00ad00;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn{
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px;
+    background-color: rgba(255, 0, 0, 0.781);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}

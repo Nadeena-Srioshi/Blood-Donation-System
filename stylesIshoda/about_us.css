@@ -1,0 +1,56 @@
+/* Name - MODERAGE I U
+IT no - IT23834606 */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.about1{
+    width:100%;
+    padding: 150px 0px 150px 0px;
+    background-image: url("../imagesIshoda/about1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+    
+    
+}
+.about2{
+    width:100%;
+    padding: 150px 0px;
+    background-image: url("../imagesIshoda/about2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+   
+}
+.about3{
+    width:100%;
+    padding: 150px 0px;
+    background-image: url("../imagesIshoda/about3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+}
+h1{
+    height: auto;
+    width: 420px;
+    font-size:50px;
+}
+.pa2{
+    width : 550px;
+    font-size: 20px;
+}
+.pa1{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 15px;
+    backdrop-filter: blur(5px);
+}

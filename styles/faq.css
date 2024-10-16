@@ -1,0 +1,107 @@
+/*body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e28d94;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+
+body{
+    background-color: rgb(247, 240, 240);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.help-section {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 100px auto ;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    background-color: #d64646;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-button:hover {
+    background-color: #ae1e1e;
+}
+
+.accordion-button.active {
+    background-color: #941e09;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 0 0 5px 5px;
+    transition: max-height 0.4s ease-out;
+    padding: 0 15px;
+    margin-top: -5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-content ul {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.accordion-content li {
+    padding: 10px 0;
+    color: #555;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.accordion-content li:hover {
+    color: #0073e6;
+}
+
+.accordion-button:after {
+    content: '+';
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.accordion-button.active:after {
+    content: '-';
+}

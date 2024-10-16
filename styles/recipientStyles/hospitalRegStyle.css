@@ -1,0 +1,78 @@
+/* Name - Fernando Pulle N S
+IT no - IT23836440 */
+
+body{
+       background-image: url(../../images/recipientImages/background1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-family:sans-serif;
+}
+
+.container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+       
+}
+
+.frame {
+       
+       width:400px;
+       padding: 50px;
+       margin:50px 0px;
+       border-radius:10px;
+       box-shadow: 0 0 5px black;
+       backdrop-filter: blur(20px);
+       
+       
+}
+
+.frame h2{
+       text-align: center;
+}
+
+.frame input{
+       width:100%;
+       border-radius: 5px;
+       padding: 10px 5px;
+       margin: 5px 0px;
+       border:0px;
+}
+
+.frame .type{
+       display: flex;
+       justify-content: space-between;
+       column-gap: 20px;
+}
+
+#btn{
+       background-color: #0f6af3;
+       margin-top: 20px;
+       border: none;
+       padding: 5px 20px;
+       border-radius: 5px;
+       cursor: pointer;
+       font-size: 18px;
+       width: 100px;
+}
+
+#btn:hover{
+       background-color: blue;
+       color: #fff;
+       box-shadow: 0 0 5px black;
+}
+
+#btn:active{
+       background-color: rgb(3, 3, 47);
+       color: #fff;
+       
+}
+
+#errorMsg{
+       color:red;
+       border-radius: 5px;
+       padding:10px;
+       font-size: 15px;
+       display:block;
+}

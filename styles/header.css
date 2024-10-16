@@ -1,0 +1,110 @@
+/* Name - Fernando Pulle N S
+IT no - IT23836440 */
+
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Arial', sans-serif;
+}
+
+.header-container {
+       width:100%;
+       top: 0;
+       position: fixed;
+       background-color: #d64646;
+       padding: 0px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       z-index: 1000;
+}
+/*  #c26565;*/
+.logo {
+       display: flex;
+       align-items: center;
+}
+
+.pic {
+       width: 50px;
+       height: 50px;
+       margin-right: 10px;
+}
+
+.name {
+       color: white;
+       font-family: tahoma;
+       font-size: 25px;
+       font-weight: bold;
+       text-decoration: none;
+}
+
+.links {
+       list-style-type: none;
+       display: flex;
+       gap: 20px;
+}
+
+.links a {
+       color: white;
+       font-family: tahoma;
+       font-size: 16px;
+       text-decoration: none;
+       padding: 10px;
+}
+
+.links a:hover {
+       background-color: #941e09;
+       color:white;
+       border-radius: 5px;
+       transition: background-color 0.3s ease;
+}
+
+.buttons{
+       display:flex;
+}
+
+.header-container button {
+       background-color: rgb(219, 40, 40);
+       color: white;
+       padding: 10px 15px;
+       margin: 0px 10px;
+       border: none;
+       border-radius: 5px;
+}
+
+.header-container button:hover {
+       background-color: red;
+       color:white;
+       box-shadow: 0 0 5px black;
+}
+
+.buttons a{
+       display:block;
+       text-decoration: none;
+       color: black;
+       padding: 10px 15px;
+}
+
+.dropdown .users{
+       display: none;
+       position: absolute;
+       margin-right:20px;
+       background-color: rgb(148, 136, 136);
+       width:100px;
+       border-radius: 3px;
+       box-shadow: 0 0 5px;
+       overflow: hidden;
+}
+
+.profile-icon {
+       margin-right: 50px;
+}
+
+.dropdown:hover .users{
+       display: block;
+}
+
+.dropdown a:hover{
+       background-color: rgb(84, 79, 79);
+}

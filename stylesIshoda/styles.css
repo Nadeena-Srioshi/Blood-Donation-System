@@ -1,0 +1,231 @@
+/* Name - MODERAGE I U
+IT no - IT23834606 */
+.donorLogin, .donorRegister{
+    background-color: black;
+    box-sizing: border-box;
+    background-image: url("../imagesIshoda/donorpage.jpg");
+    background-size: 100%;
+    opacity: 1.6;
+}
+
+#dl1{
+    padding: 25px;
+    margin-left:25%;
+    margin-right:25%;
+    border: 3px solid rgba(0, 0, 0, 0.267);
+    border-radius: 8px;
+    backdrop-filter: blur(50px);
+}
+
+.donorProfile{
+    background-color: black;
+    box-sizing: border-box;
+    background-image: url("../imagesIshoda/login2.jpg");
+    background-size: 100%;
+    opacity: 3;
+    background-image: linear-gradient(rgb(228, 156, 156), rgb(241, 193, 193), rgb(251, 251, 252));
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+#login{
+    font-family:unset;
+}
+
+#del{
+    background-color: red;
+}
+
+#edit{
+    background-color: rgb(28, 62, 167);
+}
+
+#book{
+    background-color: brown;
+}
+
+.heLogin{
+    font-family:initial;
+    font-size: xx-large;
+    color:rgb(10, 10, 10);
+    margin-top:0mm;
+}
+
+h1,h3{
+    color: rgb(15, 15, 15);
+    font-family:cursive;
+    font-weight: 5000;
+    margin-bottom: 0%;
+    
+}
+
+.p4{  
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #00000057;
+    border-radius: 5px;
+    resize: vertical;
+    float: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+label{
+    padding: 12px 12px 5px 0;
+    display:inline-block;
+}
+.b1{
+    background-color:rgb(12, 12, 12) ;
+    color:rgb(230, 205, 205);
+    border-radius: 8px;
+    border-style: none;
+    padding: 6px 20px;
+    margin-top:0.3cm;
+    margin-bottom:0px ;
+}
+.b1:hover{
+    background-color:rgb(223, 54, 54) ;
+   
+}
+#po1,#li1, h3, .condition{
+    background-color: #f0d5d59c;
+    border-radius: 12px;
+    padding: 5px 50px 5px;
+    margin: 10px;
+}
+.cl1{
+    margin:10px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #ec4e4e9c;
+    padding: 8px;
+}
+.cl2{
+    background-color: rgba(238, 218, 218, 0.63);
+    padding-left: 10px;
+}
+#sub{
+    color: rgba(0, 0, 0, 0.616);
+
+}
+
+.regi{
+    width: 65%;
+    resize: vertical;
+    margin: 5px;
+    border: 1px solid dimgrey;
+}
+
+.question{
+    display:none;
+    border-style: solid;
+    padding:120px;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    border-color: rgba(10, 10, 10, 0.055);
+    border-radius:8px;
+    color: black;
+    text-align: center;
+}
+
+#b2{
+    border-radius:8px;
+    padding:5px 30px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(236, 227, 227);
+    font-size: 23px;
+    font-family: cursive;
+    border-width: 0cap;
+    margin-top: 0.5cm;
+}
+#b3{
+    color: black;
+    text-align : center;
+    font-size: medium;
+}
+#para{
+    align-items: center;
+    width: 30%;
+    margin-top: 100px;
+    background-color: hsla(9, 100%, 64%, 0.4);
+    font-weight: bold;
+    color: rgb(236, 7, 7);
+    font-size: 20px;
+    font-family:cursive;
+    display:none;
+    border:3px solid #000000;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.profileInfo{
+    border:3px solid rgba(0, 0, 0, 0.302);
+    border-radius: 12px;
+    padding:0 20px 30px 20px;
+    width:97%;
+    margin: 20px;
+    height:fit-content;
+    text-align:justify;
+    word-wrap: normal;
+}
+#he1
+{
+    color: rgba(2, 2, 2, 0.952);
+    
+    font-family: Georgia;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.p1{
+    font-size: 20px;
+    width: 100%;
+    height:35px;
+    border-radius: 8px;
+    background-color: rgba(248, 10, 10, 0.048);
+    padding-left: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+    border:0lvw;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.p1 :hover{
+    border-color: #690606;
+}
+
+#p2{
+    
+    width: 85%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: right;
+    color: #030303a2;
+}
+
+.c1{
+    border-color: rgba(20, 20, 20, 0.486);
+    border-radius: 12px;   
+}
+
+#he2{
+    color: rgba(0, 0, 0, 0.76);
+    font-family:sans-serif;
+}
+
+.regi{
+    width: 60%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+    color: #030303a2;
+}
