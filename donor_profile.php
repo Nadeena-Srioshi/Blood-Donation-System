@@ -38,7 +38,7 @@ IT no - IT23834606  -->
             <!DOCTYPE html>
             <head>
                 <title>profile-DonorLink</title>
-                <link rel="stylesheet" type="text/css" href="stylesIshoda/donorProfile.css">
+                <link rel="stylesheet" type="text/css" href="styles/donorStyles/donorProfile.css">
             </head>
             <body class="donorProfile">   
             <?php 

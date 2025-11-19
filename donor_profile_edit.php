@@ -43,7 +43,7 @@ IT no - IT23834606  -->
 <html>
     <head>
         <title>Update profile</title>
-        <link rel="stylesheet" type="text/css" href="stylesIshoda/donorProfile.css">
+        <link rel="stylesheet" type="text/css" href="styles/donorStyles/donorProfile.css">
     </head>
     <body>
         <fieldset class="c1">
