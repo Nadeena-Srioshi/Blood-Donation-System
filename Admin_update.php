@@ -2,7 +2,7 @@
 IT no - IT23839274   */ -->
 
 <?php
-require_once 'connection.php';
+require_once 'config.php';
 ?>
 
 <?php

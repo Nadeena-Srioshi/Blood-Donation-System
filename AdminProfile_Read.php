@@ -4,7 +4,7 @@ IT no - IT23839274   */ -->
 <?php
 
 SESSION_start();
-require_once 'connection.php';
+require_once 'config.php';
 
 $sqlAll = "SELECT * FROM  host_blood_drives";
 $result = $conn->query($sqlAll);

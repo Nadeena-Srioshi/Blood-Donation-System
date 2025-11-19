@@ -14,6 +14,7 @@ body{
     background-color: rgb(247, 240, 240);
     background-repeat: no-repeat;
     background-size:cover;
+    min-height: 100vh;
 }
 
 .help-section {

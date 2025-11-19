@@ -2,7 +2,7 @@
 IT no - IT23839274   */ -->
 
 <?php
-require_once 'connection.php';
+require_once 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $event_name = $_POST['event_name'];
