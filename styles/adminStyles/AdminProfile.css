@@ -1,0 +1,120 @@
+ /* Name - WICKRAMASINGHE P B U R
+IT no - IT23839274   */ 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    height: 50px;
+}
+
+th {
+    background-color: #ffd0d0;
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.admin-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #ee5454;
+}
+
+.admin-header img {
+    float: right;
+    margin: 10px;
+}
+
+.admin-header h2 {
+    text-align: right;
+    margin: 0;
+}
+
+.admin-header p {
+    text-align: right;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.approve{
+    background-color: #45a049;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.decline{
+    background-color: #ee5454;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.main-content {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #000000;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+

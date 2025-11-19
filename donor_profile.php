@@ -3,7 +3,7 @@ IT no - IT23834606  -->
 
 <?php
     session_start();
-    require 'donor_config.php';
+    require 'config.php';
 ?>
 <?php
     
@@ -38,7 +38,7 @@ IT no - IT23834606  -->
             <!DOCTYPE html>
             <head>
                 <title>profile-DonorLink</title>
-                <link rel="stylesheet" type="text/css" href="stylesIshoda/styles.css">
+                <link rel="stylesheet" type="text/css" href="stylesIshoda/donorProfile.css">
             </head>
             <body class="donorProfile">   
             <?php 

@@ -1,13 +1,10 @@
-<!--  Name - MODERAGE I U
-IT no - IT23834606  -->
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eligibility Check-DonorLink</title>
-        <link rel="stylesheet" href="stylesIshoda/styles.css">
+        <link rel="stylesheet" href="stylesIshoda/donorProfile.css">
         
     </head>
     <body class ="donorEl">
@@ -16,7 +13,7 @@ IT no - IT23834606  -->
 
         <div id="eligibility_quiz">
             <div id="q1" class="question">
-                <img src="imagesIshoda/elg1.png" width="180" class="img1"><br>
+                <img src="donorImages/elg1.png" width="180" class="img1"><br>
                 <b>Are you 18-50 years old?</b><br>
                 
                 <button id="b2" onclick="checkEligibility(1, 'yes')">Yes</button>
@@ -27,7 +24,7 @@ IT no - IT23834606  -->
             </div>
 
             <div id="q2" class="question">
-                <img src="imagesIshoda/elg2.png" width="180"><br>
+                <img src="donorImages/elg2.png" width="180"><br>
                 <b>Had a tatoo in last 4 months?</b><br>
                 <button id="b2" onclick="checkEligibility(2, 'yes')">Yes</button>
                 <button id="b2" onclick="checkEligibility(2, 'no')">No</button>
@@ -37,7 +34,7 @@ IT no - IT23834606  -->
             </div>
 
             <div id="q3" class="question">
-                <img src="imagesIshoda/elg3.png" width="230"><br>
+                <img src="donorImages/elg3.png" width="230"><br>
                 <b>Are you pregnant or recently give birth?</b><br>
                 <button id="b2" onclick="checkEligibility(3, 'yes')">Yes</button>
                 <button id="b2" onclick="checkEligibility(3, 'no')">No</button>
@@ -47,7 +44,7 @@ IT no - IT23834606  -->
             </div>
 
             <div id="q4" class="question">
-                <img src="imagesIshoda/elg4.png" width="180"><br>
+                <img src="donorImages/elg4.png" width="180"><br>
                 <b>Do you have a heart condition?</b><br>
                 <button id="b2" onclick="checkEligibility(4, 'yes')">Yes</button>
                 <button id="b2" onclick="checkEligibility(4, 'no')">No</button>
@@ -57,7 +54,7 @@ IT no - IT23834606  -->
             </div>
 
             <div id="q5" class="question">
-                <img src="imagesIshoda/elg5.png" width="250" ><br>
+                <img src="donorImages/elg5.png" width="250" ><br>
                 <b>Have you injected recreatial drugs in the past 5 years?</b><br>
                 <button id="b2" onclick="checkEligibility(5, 'yes')">Yes</button>
                 <button id="b2" onclick="checkEligibility(5, 'no')">No</button>
@@ -67,7 +64,7 @@ IT no - IT23834606  -->
             </div>
 
             <div id="q6" class="question">
-                <img src="imagesIshoda/elg6.png" width="180"><br>
+                <img src="donorImages/elg6.png" width="180"><br>
                 <b>Will you travel oversees 4 months before your donation?</b><br>
                 <button id="b2" onclick="checkEligibility(6, 'yes')">Yes</button>
                 <button id="b2" onclick="checkEligibility(6, 'no')">No</button>

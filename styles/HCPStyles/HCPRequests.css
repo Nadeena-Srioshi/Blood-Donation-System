@@ -1,0 +1,30 @@
+/* Name - PRATHIBA H A S 
+IT no - IT23832008    */
+
+#approve-btn{
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px;
+    background-color: #00ad00;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+#decline-btn{
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px;
+    background-color: rgba(255, 0, 0, 0.781);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}

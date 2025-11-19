@@ -28,10 +28,10 @@ $name = $row['name'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Profile</title>
-    <link rel="stylesheet" href="AdminProfile.css">
+    <link rel="stylesheet" href="styles/adminStyles/AdminProfile.css">
     
 </head>
-<link rel="stylesheet" href="AdminProfile.css">
+<link rel="stylesheet" href="styles/adminStyles/AdminProfile.css">
 <?php include "header.php"; ?>
 <body>
      <!-- Main Content -->

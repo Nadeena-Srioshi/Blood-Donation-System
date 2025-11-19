@@ -3,8 +3,8 @@ IT no - IT23834606  -->
 <!DOCTYPE html>
     <head>
         <title>Eligibility Check-DonorLink</title>
-        <link rel="stylesheet" href="stylesIshoda/styles.css">
-        <script src="jsIshoda/eligibility.js"></script>
+        <link rel="stylesheet" href="stylesIshoda/donorProfile.css">
+        <script src="js/eligibility.js"></script>
     </head>
     <body class="donorEl">
     <?php include "header.php"; ?>

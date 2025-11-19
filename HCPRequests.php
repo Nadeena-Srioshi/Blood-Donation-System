@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Requests</title>
-    <link rel="stylesheet" href="styles/HCPBloodCollection.css" />
-    <link rel="stylesheet" href="styles/HCPRequests.css" />
+    <link rel="stylesheet" href="styles/HCPStyles/HCPBloodCollection.css" />
+    <link rel="stylesheet" href="styles/HCPStyles/HCPRequests.css" />
     
   </head>
   <body>

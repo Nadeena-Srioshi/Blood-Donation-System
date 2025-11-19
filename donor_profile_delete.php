@@ -2,7 +2,7 @@
 IT no - IT23834606  -->
 
 <?php
-    require 'donor_config.php';
+    require 'config.php';
 
     $id = $_GET['id'];
 

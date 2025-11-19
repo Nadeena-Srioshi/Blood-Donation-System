@@ -4,7 +4,7 @@ IT no - IT23834606  -->
 <?php
     session_start();
 
-    require 'donor_config.php';
+    require 'config.php';
 
 
     if(isset($_POST["email"]) && isset($_POST["pswrd"]))

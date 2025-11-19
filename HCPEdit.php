@@ -25,7 +25,7 @@ if (isset($_GET['nic'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/HCPForm.css" />
+    <link rel="stylesheet" href="styles/HCPStyles/HCPForm.css" />
     <title>Edit Blood Donation Record</title>
     <script>
         function validateForm() {

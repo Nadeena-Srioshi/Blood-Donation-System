@@ -5,7 +5,7 @@ IT no - IT23834606  -->
 
     session_start();
 
-    require 'donor_config.php';
+    require 'config.php';
     // Check if the form is submitted
     if (isset($_GET['update'])) {
         echo "Inside form submission!";

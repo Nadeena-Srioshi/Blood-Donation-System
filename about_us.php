@@ -7,7 +7,7 @@ IT no - IT23834606 */ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DonorLink</title>
-    <link rel="stylesheet" href="stylesIshoda/about_us.css">
+    <link rel="stylesheet" href="styles/about_us.css">
 </head>
 <body>
     <header>

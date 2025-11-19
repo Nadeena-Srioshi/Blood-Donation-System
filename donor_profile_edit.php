@@ -5,7 +5,7 @@ IT no - IT23834606  -->
 
     session_start();
 
-    require 'donor_config.php';
+    require 'config.php';
     /*$id = $_SESSION['id'];
 
     if(!isset($id))
@@ -43,7 +43,7 @@ IT no - IT23834606  -->
 <html>
     <head>
         <title>Update profile</title>
-        <link rel="stylesheet" type="text/css" href="stylesIshoda/styles.css">
+        <link rel="stylesheet" type="text/css" href="stylesIshoda/donorProfile.css">
     </head>
     <body>
         <fieldset class="c1">
